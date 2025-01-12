@@ -1,0 +1,10 @@
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+title: Cyber Thriver
+description: Empowering women and underrepresented groups in cybersecurity with resources and guidance.
+baseurl: ""
+url: "https://thecyberthriver.github.io/The-Cyber-Thriver"
