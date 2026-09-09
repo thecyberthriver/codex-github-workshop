@@ -1,0 +1,18 @@
+dataset,field,type,definition,unit_or_values,availability_note
+revenue_profile,period_start,date,Start of the reporting period,YYYY-MM-DD,Published reporting period
+revenue_profile,period_end,date,End of the reporting period,YYYY-MM-DD,Published reporting period
+revenue_profile,metric,string,Financial measure being reported,Gross toll revenue; Program expenses; Net revenue,Not a payer-residence measure
+revenue_profile,amount_usd_millions,number,Reported financial amount,USD millions,Nominal dollars
+revenue_profile,reported_basis,string,Whether value is actual or projection,reported year-to-date; first-year public total; projection,Use basis before comparing values
+revenue_profile,source,string,Document supplying the value,source title,See README links
+hf_taxi_sample_100,row_idx,integer,Original Hugging Face row index,0-99,Sample position only
+hf_taxi_sample_100,trip_date,date,Taxi trip date,YYYY-MM-DD,Sampled rows are pre-program
+hf_taxi_sample_100,pickup_datetime,datetime,Taxi pickup timestamp,local timestamp,Not resident location
+hf_taxi_sample_100,pickup_borough,string,Pickup borough,borough name,Trip geography only
+hf_taxi_sample_100,dropoff_borough,string,Drop-off borough,borough name,Trip geography only
+hf_taxi_sample_100,fare_amount,number,Taxi fare before add-ons,USD,Taxi fare not congestion-pricing receipt
+hf_taxi_sample_100,total_amount,number,Taxi trip total,USD,Includes applicable taxi charges
+hf_taxi_sample_100,cbd_congestion_fee,number,Taxi-record Central Business District congestion-fee field,USD,Not a complete program-revenue measure
+hf_taxi_sample_100,congestion_surcharge,number,Taxi-record congestion surcharge field,USD,Distinct from CBD toll program
+hf_taxi_sample_100,trip_distance,number,Trip distance,miles,Taxi trip characteristic
+hf_taxi_sample_100,payment_type,integer,TLC payment method code,TLC code,No payer residence
